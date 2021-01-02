@@ -18,7 +18,7 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/markdownit": "^1.2.10",
     "@nuxtjs/pwa": "^3.0.2",
-    "core-js": "^3.6.5",
+    "core-js": "^3.8.1",
     "dayjs": "^1.8.31",
     "dotenv": "^8.2.0",
     "netlify-cms-app": "^2.14.8",
