@@ -62,14 +62,14 @@ export default class Detail extends Vue {
   }
 
   get detailToNextAge() {
-    if (dayjs().isBefore(dayjs().month(3).date(13))) {
+    if (dayjs().isBefore(dayjs().month(2).date(13))) {
       return `次のレベルまで： ${
-        dayjs().diff(dayjs().month(3).date(13), 'd') * -1
+        dayjs().diff(dayjs().month(2).date(13), 'd') * -1
       } 日`
     }
     return `次のレベルまで： ${dayjs()
       .year(dayjs().year() + 1)
-      .month(3)
+      .month(2)
       .date(13)
       .diff(dayjs(), 'd')} 日`
   }
