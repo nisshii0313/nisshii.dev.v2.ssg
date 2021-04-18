@@ -37,12 +37,12 @@ export default {
           property: 'twitter:card',
           content: 'summary_large_image'
         },
-        {
-          hid: 'canonical',
-          rel: 'canonical',
-          href: 'https://nisshii.dev/skills',
-        },
       ],
+      link: {
+        hid: 'canonical',
+        rel: 'canonical',
+        href: 'https://nisshii.dev/',
+      },
     }
   },
 }

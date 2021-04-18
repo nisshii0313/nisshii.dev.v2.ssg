@@ -5,7 +5,7 @@
     </div>
     <div class="icons-line">
       <div>
-        <div mr-1>
+        <div>
           <p>E:</p>
         </div>
         <div>
