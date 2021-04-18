@@ -22,6 +22,9 @@ module.exports = (html) => {
   // ⚡マークをHTMLタグに追加
   html = html.replace(/<html/gi, '<html ⚡ id="html"')
 
+  // ⚡マークをHTMLタグに追加
+  html = html.replace(/<img/gi, '<amp-img')
+
   // baseタグを上に持ってくる
   let baseTag = ''
   html = html.replace(/<base href="(.*?)">/gi, (_match) => {
@@ -50,7 +53,7 @@ module.exports = (html) => {
 
   // AMP用script読み込み準備
   const ampScript =
-    '<script async src="https://cdn.ampproject.org/v0.js"></script>'
+    '<link rel="preload" as="script" href="https://cdn.ampproject.org/v0.js"><script async src="https://cdn.ampproject.org/v0.js"></script>'
 
   // AMPボイラープレートとAMP用scriptをheadの終了直前には
   html = html.replace('</head>', ampScript + ampBoilerplate + '</head>')
