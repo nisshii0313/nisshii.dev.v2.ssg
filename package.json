@@ -27,7 +27,7 @@
     "netlify-cms-app": "^2.14.8",
     "nuxt": "^2.14.11",
     "nuxt-generate-cluster": "^2.7.0",
-    "nuxt-property-decorator": "^2.8.8",
+    "nuxt-property-decorator": "2.9.1",
     "prism-themes": "^1.5.0",
     "reading-time": "^1.2.1",
     "vue-svg-loader": "^0.16.0"
