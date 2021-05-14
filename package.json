@@ -22,7 +22,7 @@
     "dayjs": "^1.8.31",
     "dotenv": "^8.2.0",
     "front-matter": "^4.0.2",
-    "html-parse-stringify": "^2.0.0",
+    "html-parse-stringify": "3.0.1",
     "marked": "^1.2.7",
     "netlify-cms-app": "^2.14.8",
     "nuxt": "^2.14.11",
