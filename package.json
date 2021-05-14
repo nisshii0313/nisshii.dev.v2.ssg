@@ -20,7 +20,7 @@
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.10.1",
     "dayjs": "^1.8.31",
-    "dotenv": "^8.2.0",
+    "dotenv": "9.0.2",
     "front-matter": "^4.0.2",
     "html-parse-stringify": "^2.0.0",
     "marked": "^1.2.7",
