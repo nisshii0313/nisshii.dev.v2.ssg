@@ -148,6 +148,7 @@ export default {
     name: "Nisshii's Portfolio",
     lang: 'ja',
     short_name: "Nisshii's Portfolio",
+    start_url: "/",
     title: "Nisshii's Portfolio",
     'og:title': "Nisshii's Portfolio",
     description: 'NisshiiのNisshiiによるNisshiiのためのボートフォリオサイト兼ブログ',
