@@ -42,12 +42,12 @@
     "@nuxtjs/eslint-config-typescript": "6.0.1",
     "@nuxtjs/eslint-module": "3.0.2",
     "babel-eslint": "10.1.0",
-    "eslint": "7.32.0",
+    "eslint": "8.0.1",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-nuxt": "2.0.0",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-promise": "^5.1.0",
-    "optimize-css-assets-webpack-plugin": "5.0.8",
+    "optimize-css-assets-webpack-plugin": "6.0.1",
     "prettier": "2.4.1",
     "terser-webpack-plugin": "5.2.4"
   }
