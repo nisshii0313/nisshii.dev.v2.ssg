@@ -5,7 +5,14 @@
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
           <div class="blog-card">
-            <img class="lazyload" width="1000" height="1000" :src="article.image" :data-src="article.image" :alt="article.images[0].alt" />
+            <img
+              class="lazyload"
+              width="1000"
+              height="1000"
+              :src="article.image"
+              :data-src="article.image"
+              :alt="article.images[0].alt"
+            />
             <h2>{{ article.title }}</h2>
             <p>{{ article.createdAt }} | {{ article.readingTime }}</p>
           </div>
@@ -14,37 +21,6 @@
     </ul>
   </div>
 </template>
-
-<style scoped>
-.blog-wrapper {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-.blog-wrapper h1 {
-  text-align: center;
-}
-.blog-list {
-  list-style: none;
-  padding: 0;
-}
-.blog-list li {
-  width: 100%;
-}
-.blog-card {
-  border: solid 3px whitesmoke;
-  box-sizing: border-box;
-  border-radius: 15px;
-  text-align: center;
-}
-.blog-card img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  width: 100%;
-  height: auto;
-}
-</style>
 
 <script>
 import { Vue } from 'vue-property-decorator'
@@ -55,7 +31,7 @@ export default Vue.extend({
     const articles = await $content('blog', params.slug)
       .sortBy('createdAt', 'asc')
       .fetch()
-    articles.map((item) => {
+    articles.forEach((item) => {
       item.createdAt = dayjs(item.createdAt).format('YYYY/MM/DD')
       item.image = require(`static/${item.images[0].url}`)
     })
@@ -92,7 +68,7 @@ export default Vue.extend({
         {
           hid: 'twitter:card',
           property: 'twitter:card',
-          content: 'summary_large_image'
+          content: 'summary_large_image',
         },
         {
           hid: 'canonical',
@@ -104,3 +80,34 @@ export default Vue.extend({
   },
 })
 </script>
+
+<style scoped>
+.blog-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.blog-wrapper h1 {
+  text-align: center;
+}
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+.blog-list li {
+  width: 100%;
+}
+.blog-card {
+  border: solid 3px whitesmoke;
+  box-sizing: border-box;
+  border-radius: 15px;
+  text-align: center;
+}
+.blog-card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+</style>

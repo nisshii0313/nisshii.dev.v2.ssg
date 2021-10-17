@@ -6,6 +6,10 @@
   </div>
 </template>
 
+<script>
+export default {}
+</script>
+
 <style>
 body {
   margin: 0px;
@@ -26,7 +30,3 @@ body {
   margin-top: auto;
 }
 </style>
-
-<script>
-export default {}
-</script>

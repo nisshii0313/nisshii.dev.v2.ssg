@@ -13,6 +13,21 @@
   </div>
 </template>
 
+<script>
+import { Component, Vue, Prop } from 'vue-property-decorator'
+
+@Component
+export default class Blog extends Vue {
+  @Prop({ type: Object, required: true })
+  content
+
+  get img() {
+    const src = require(`static/${this.content.images[0].url}`)
+    return src
+  }
+}
+</script>
+
 <style>
 .blog-main {
   padding-right: 8px;
@@ -36,18 +51,3 @@
   color: #ffa600;
 }
 </style>
-
-<script>
-import { Component, Vue, Prop } from 'vue-property-decorator'
-
-@Component
-export default class Blog extends Vue {
-  @Prop({ type: Object, required: true })
-  content
-
-  get img() {
-    const src = require(`static/${this.content.images[0].url}`);
-    return src;
-  }
-}
-</script>

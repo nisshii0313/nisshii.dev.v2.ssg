@@ -15,25 +15,6 @@
   </article>
 </template>
 
-<style scoped>
-.blog-title {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 16px;
-}
-.blog-link-to-top {
-  width: 100%;
-  text-align: center;
-}
-.blog-link-to-top p {
-  border: solid 3px whitesmoke;
-  box-sizing: content-box;
-  border-radius: 15px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-</style>
-
 <script>
 import { Vue } from 'vue-property-decorator'
 const fs = require('fs')
@@ -81,13 +62,12 @@ export default Vue.extend({
           hid: 'og:image',
           property: 'og:image',
           content:
-            'https://nisshii.netlify.app/' +
-            this.$data.post.images[0].url,
+            'https://nisshii.netlify.app/' + this.$data.post.images[0].url,
         },
         {
           hid: 'twitter:card',
           property: 'twitter:card',
-          content: 'summary_large_image'
+          content: 'summary_large_image',
         },
         {
           hid: 'canonical',
@@ -99,3 +79,22 @@ export default Vue.extend({
   },
 })
 </script>
+
+<style scoped>
+.blog-title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.blog-link-to-top {
+  width: 100%;
+  text-align: center;
+}
+.blog-link-to-top p {
+  border: solid 3px whitesmoke;
+  box-sizing: content-box;
+  border-radius: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+</style>
