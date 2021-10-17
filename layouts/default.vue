@@ -5,13 +5,9 @@
     <Footer class="footer" />
   </div>
 </template>
+
 <script>
 export default {
-  computed: {
-    currentPageForCanonical() {
-      return this.$route.path.slice(1)
-    },
-  },
   head() {
     return {
       link: [
@@ -22,8 +18,14 @@ export default {
       ],
     }
   },
+  computed: {
+    currentPageForCanonical() {
+      return this.$route.path.slice(1)
+    },
+  },
 }
 </script>
+
 <style>
 body {
   margin: 0px;
@@ -44,7 +46,3 @@ body {
   margin-top: auto;
 }
 </style>
-
-<script>
-export default {}
-</script>

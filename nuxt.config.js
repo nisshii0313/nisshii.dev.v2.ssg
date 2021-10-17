@@ -36,98 +36,82 @@ export default {
       {
         hid: 'ruby-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069677/ruby_rcedus.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069677/ruby_rcedus.svg',
       },
       {
         hid: 'ts-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069677/ts_vhckk8.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069677/ts_vhckk8.svg',
       },
       {
         hid: 'vue-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069677/vue_hcg62l.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069677/vue_hcg62l.svg',
       },
       {
         hid: 'elixir-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069676/elixir_oadnwd.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069676/elixir_oadnwd.svg',
       },
       {
         hid: 'kube-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069675/kube_pv6kee.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069675/kube_pv6kee.svg',
       },
       {
         hid: 'react-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069675/react_huyjrw.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069675/react_huyjrw.svg',
       },
       {
         hid: 'go-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069675/go_eqy1my.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069675/go_eqy1my.svg',
       },
       {
         hid: 'docker-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069675/docker_atu6bp.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069675/docker_atu6bp.svg',
       },
       {
         hid: 'rails-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069675/rails_wuuvl3.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069675/rails_wuuvl3.svg',
       },
       {
         hid: 'twitter-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069540/twitter_cx3qyc.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069540/twitter_cx3qyc.svg',
       },
       {
         hid: 'aoba-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069539/aoba_pegfa4.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069539/aoba_pegfa4.svg',
       },
       {
         hid: 'facebook-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069538/facebook_scc9xe.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069538/facebook_scc9xe.svg',
       },
       {
         hid: 'qiita-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069538/qiita_wtznsv.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069538/qiita_wtznsv.svg',
       },
       {
         hid: 'deck-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069538/speaker-deck_ul68bi.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069538/speaker-deck_ul68bi.svg',
       },
       {
         hid: 'github-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069538/github_o0dg95.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069538/github_o0dg95.svg',
       },
       {
         hid: 'hatena-icon',
         rel: 'prefetch',
-        href:
-          'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069538/hatena_nepawz.svg',
+        href: 'https://res.cloudinary.com/ddkwdet2n/image/upload/v1607069538/hatena_nepawz.svg',
       },
     ],
   },
@@ -149,7 +133,7 @@ export default {
   ],
 
   googleAnalytics: {
-    id: 'G-7Z10E1ZGN6'
+    id: 'G-7Z10E1ZGN6',
   },
 
   // Modules (https://go.nuxtjs.dev/config-modules)

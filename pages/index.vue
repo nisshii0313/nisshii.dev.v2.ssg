@@ -4,15 +4,6 @@
   </div>
 </template>
 
-<style scoped>
-.home {
-  max-width: 100%;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-</style>
-
 <script>
 export default {
   head() {
@@ -22,14 +13,20 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'nisshiiのnisshiiによるnisshiiのためのポートフォリオ兼ブログ',
+          content:
+            'nisshiiのnisshiiによるnisshiiのためのポートフォリオ兼ブログ',
         },
         { hid: 'og:type', property: 'og:type', content: 'article' },
-        { hid: 'og:title', property: 'og:title', content: "nisshii's portfolio" },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: "nisshii's portfolio",
+        },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: 'nisshiiのnisshiiによるnisshiiのためのポートフォリオ兼ブログ',
+          content:
+            'nisshiiのnisshiiによるnisshiiのためのポートフォリオ兼ブログ',
         },
         {
           hid: 'og:url',
@@ -44,7 +41,7 @@ export default {
         {
           hid: 'twitter:card',
           property: 'twitter:card',
-          content: 'summary_large_image'
+          content: 'summary_large_image',
         },
         {
           hid: 'canonical',
@@ -56,3 +53,12 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.home {
+  max-width: 100%;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+</style>
