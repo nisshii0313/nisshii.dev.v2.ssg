@@ -144,6 +144,22 @@ export default {
     '@nuxt/content',
   ],
 
+  manifest: {
+    name: "Nisshii's Portfolio",
+    lang: 'ja',
+    short_name: "Nisshii's Portfolio",
+    title: "Nisshii's Portfolio",
+    'og:title': "Nisshii's Portfolio",
+    description: 'NisshiiのNisshiiによるNisshiiのためのボートフォリオサイト兼ブログ',
+    'og:description': 'NisshiiのNisshiiによるNisshiiのためのボートフォリオサイト兼ブログ',
+    theme_color: "#2196f3",
+    background_color: "#2196f3",
+  },
+
+  workbox: {
+    dev: false,
+  },
+
   hooks: {
     'generate:page': (page) => {
       page.html = ampify(page.html)
