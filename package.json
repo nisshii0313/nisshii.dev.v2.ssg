@@ -24,7 +24,7 @@
     "front-matter": "4.0.2",
     "html-parse-stringify": "3.0.1",
     "marked": "3.0.7",
-    "netlify-cms-app": "2.15.52",
+    "netlify-cms-app": "2.15.53",
     "nuxt": "2.15.8",
     "nuxt-generate-cluster": "2.7.0",
     "nuxt-property-decorator": "2.9.1",
