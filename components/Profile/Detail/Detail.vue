@@ -35,7 +35,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import dayjs from 'dayjs'
+import dayjs, { locale } from 'dayjs'
 import 'dayjs/locale/ja'
 import detail from './detail.json'
 
@@ -47,15 +47,15 @@ type DetailInfo = {
   jobDescription: string
 }
 
-dayjs().locale('ja')
+locale('ja')
 
 @Component
 export default class Detail extends Vue {
   detailInfo: DetailInfo = detail
 
   get detailAge() {
-    import('dayjs').then((dayjs) => {
-      dayjs.locale('ja')
+    import('dayjs').then(() => {
+      locale('ja')
     })
     const t = dayjs('1999-03-13T00:00:00')
     return `Lv：${dayjs().diff(t, 'y')}`
