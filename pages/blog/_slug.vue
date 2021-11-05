@@ -19,15 +19,19 @@
 import { Vue } from 'vue-property-decorator'
 const fs = require('fs')
 const fm = require('front-matter')
-const marked = require('marked')
+
+const md = require('markdown-it')({
+  html: true,
+  linkify: true,
+  breaks: false,
+})
 
 export default Vue.extend({
   async asyncData({ $content, params, _error }) {
     const query = $content('blog', params.slug)
     const post = await query.fetch()
     const file = fs.readFileSync(`content/blog/${params.slug}.md`, 'utf8')
-    post.html = marked(fm(file).body)
-    post.html = marked(fm(file).body)
+    post.html = md.render(fm(file).body)
     return {
       post,
     }

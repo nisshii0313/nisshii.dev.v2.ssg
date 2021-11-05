@@ -130,6 +130,7 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     '@nuxtjs/google-analytics',
+    '@nuxt/image',
   ],
 
   googleAnalytics: {
@@ -161,6 +162,10 @@ export default {
 
   generate: {
     subFolders: false,
+  },
+
+  image: {
+    // Options
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
