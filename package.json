@@ -34,7 +34,7 @@
     "vue-svg-loader": "0.16.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "14.1.0",
+    "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "14.1.0",
     "@nuxt/components": "2.2.1",
     "@nuxt/image": "0.6.0",
