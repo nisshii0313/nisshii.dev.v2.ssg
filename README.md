@@ -1,4 +1,4 @@
-# nisshii.dev
+# nisshii.dev　[![Daily build](https://github.com/nisshii0313/nisshii.dev.v2.ssg/actions/workflows/daily.yml/badge.svg)](https://github.com/nisshii0313/nisshii.dev.v2.ssg/actions/workflows/daily.yml)
 
 ## Build Setup
 
