@@ -70,12 +70,12 @@ export default Vue.extend({
           property: 'twitter:card',
           content: 'summary_large_image',
         },
-        {
-          hid: 'canonical',
-          rel: 'canonical',
-          href: 'https://nisshii.dev' + '/blog/',
-        },
       ],
+      link: {
+        hid: 'canonical',
+        rel: 'canonical',
+        href: 'https://nisshii.dev/',
+      },
     }
   },
 })
